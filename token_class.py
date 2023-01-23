@@ -29,7 +29,7 @@ if __name__ == '__main__':
     tup4 = (EntityToken("Peter", "ENT02"), "is", "tall")
     tup5 = (EntityToken("Frank", "ENT01"), "is", "tall")
 
-    print(tup1 == tup2)
-    print(tup1 == tup3)
-    print(tup1 == tup4)
-    print(tup1 == tup5)
+    print(tup1 == tup2)  # True
+    print(tup1 == tup3)  # False
+    print(tup1 == tup4)  # False
+    print(tup1 == tup5)  # False
